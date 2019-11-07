@@ -9,7 +9,7 @@ end
 def summon_captain_planet(array)
   finarray = []
   finarray = array.map{|str|
-  return "#{str.capitalize}!"
+  "#{str.capitalize}!"
   }
   return finarray
 end
