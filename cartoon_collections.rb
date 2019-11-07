@@ -9,6 +9,7 @@ end
 def summon_captain_planet(array)
   array.map{|str|
   puts "#{str.capitalize}!"
+  }
 end
 
 def long_planeteer_calls(array)
@@ -16,10 +17,12 @@ def long_planeteer_calls(array)
   if str.length > 4
     return true
   end 
+  }
 end
 
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.include?(cheese_types)
+  cheese_types.each{|str|
+  array.include?(str)
 end
