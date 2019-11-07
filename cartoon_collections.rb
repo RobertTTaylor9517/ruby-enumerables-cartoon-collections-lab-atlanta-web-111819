@@ -7,10 +7,11 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map{|str|
+  finarray = []
+  finarray = array.map{|str|
   return "#{str.capitalize}!"
   }
-  return array
+  return finarray
 end
 
 def long_planeteer_calls(array)
